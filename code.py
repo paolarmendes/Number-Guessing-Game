@@ -10,7 +10,7 @@ if userChoice == 1:
         userGuess = int(input("\nEnter your guess: "))
         if userGuess == x:
             print(f"\nCongratulations! You guessed the correct number in {y} attempts.")
-        elif userChoice > x:
+        elif userGuess > x:
             print(f"\nIncorrect! The number is less than {userGuess}.")
         else:
             print(f"\nIncorrect! The number is more than {userGuess}.")
@@ -25,7 +25,7 @@ elif userChoice == 2:
         userGuess = int(input("\nEnter your guess: "))
         if userGuess == x:
             print(f"\nCongratulations! You guessed the correct number in {y} attempts.")
-        elif userChoice > x:
+        elif userGuess > x:
             print(f"\nIncorrect! The number is less than {userGuess}.")
         else:
             print(f"\nIncorrect! The number is more than {userGuess}.")
